@@ -1,23 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+import { Player, Controls } from '@lottiefiles/react-lottie-player';
+import "../src/assets/styles/app.scss"
+
+const animation= "https://assets9.lottiefiles.com/private_files/lf30_y9czxcb9.json"
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Player autoplay loop src={animation} style={{ height: '50%', width: '50%' }}></Player>
     </div>
   );
 }
