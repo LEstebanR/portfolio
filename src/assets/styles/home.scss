@@ -1,0 +1,170 @@
+// Colors:
+// #c1f8f8
+// #64c4d4
+// #0473ac
+// #042f66
+
+
+.home{
+  width: 100vw;
+  height: 100vh;
+  background-image: url('../images/159160.png');
+  background-attachment: fixed;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  border: solid 1px #000;
+}
+
+.home_about{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  background-color: #c1f8f8
+  ;
+
+}
+
+.home_image{
+  width: 200px;
+  height: 200px;
+  clip-path: circle(50% at 50% 50%);
+}
+
+.home_about_hobbies{
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.hobbie{
+  font-size: 50px;
+}
+
+.skills_container{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: solid 1px #000;
+  background-color:#64c4d4 ;
+
+}
+
+.skills_title{
+  margin: 10px
+}
+
+.skills{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  flex-wrap: wrap;
+
+}
+
+.skill_card{
+  padding: 1rem;
+  height: 150px;
+
+}
+
+.skill_card_title{
+  text-align: center;
+}
+
+.skill_logo{
+  height: 75%;
+  width: 100%;
+}
+
+.projects{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  border: solid 1px #000;
+  background-color: #0473ac;
+}
+
+.projects_cards{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.projects_card{
+  border: solid 3px black;
+  height: 250px;
+  width: 500px;
+  margin: 10px;
+  display: flex;
+  background-color: #ffff;
+
+}
+
+.projects_card:hover{
+  border: solid 3px #042f66;
+}
+
+.project_img{
+  height: 11rem;
+  width: 15rem;
+  margin: auto;
+  border: solid 1px black;
+}
+
+.project_info{
+  width: 50%;
+}
+
+.project_name{
+  text-align: center;
+  margin: 10px;
+}
+
+.project_description{
+  text-align: justify;
+  margin: 10px;
+}
+
+.project_links{
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 25px;
+  color: #042f66;
+}
+
+.contact{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: solid 1px black;
+  background-color: #042f66;
+}
+
+.contact_links{
+  width: 20%;
+  margin: 15px;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 25px;
+}
