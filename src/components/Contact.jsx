@@ -7,9 +7,9 @@ const Contact = () => {
     <div className="contact">
       <h1>You can find me here:</h1>
       <div className="contact_links">
-        <a href="mailto:leramirezca@gmail.com"><FontAwesomeIcon icon={faEnvelope}/></a>
-        <a href="https://github.com/LEstebanR" target="blank"><FontAwesomeIcon icon={faGithub}/></a>
-        <a href="https://www.linkedin.com/in/lestebanr/" target="blank"><FontAwesomeIcon icon={faLinkedin}/></a>
+        <a href="mailto:leramirezca@gmail.com"><FontAwesomeIcon icon={faEnvelope} className="icon"/></a>
+        <a href="https://github.com/LEstebanR" target="blank"><FontAwesomeIcon icon={faGithub} className="icon"/></a>
+        <a href="https://www.linkedin.com/in/lestebanr/" target="blank"><FontAwesomeIcon icon={faLinkedin} className="icon"/></a>
       </div>
     </div>
   )
