@@ -1,4 +1,3 @@
-import {Parallax, ParallaxLayer} from  "@react-spring/parallax"
 import "../src/assets/styles/app.scss"
 import Home from './components/Home';
 import About from './components/About';
