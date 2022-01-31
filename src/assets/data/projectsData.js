@@ -14,6 +14,13 @@ const projectsData = [
     youtube: 'https://youtu.be/cXeZkay9kWA?t=5663',
     github: 'https://github.com/LEstebanR/reformapp-front',
     url: 'https://reformapp.vercel.app/'
+  },
+  {
+    name: "LibraryApp",
+    description: 'LibraryApp is a web app that allows users to search for books and save them to their library and loan books to users',
+    image: 'https://user-images.githubusercontent.com/60658401/151644255-a8d02cd3-448c-4e90-b91c-d12431609f24.png',
+    github: 'https://github.com/LEstebanR/prueba365frontend',
+    url: 'https://prueba365frontend.vercel.app/'
   }
 
 ]
